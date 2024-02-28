@@ -11,7 +11,7 @@ App.use(bodyParser.urlencoded( { extended: false } ));
 App.use(bodyParser.json());
 
 App.get("/", function(req,res){
-    res.send("Hi! I'm just a chatbot web app");
+    res.send("Hi! I'm just a chatbot web app\n You are welcome");
 })
 
 App.listen(App.get("port"),function(){
